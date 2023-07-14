@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
+
+    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
+    <style>
+
+      
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+      html{
+        height: 100%;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body{
+        background-image: url(./images/bg-desktop.svg);
+        background-size: cover;
+        height: 100%;
+        background-color: papayawhip;
+        
+      }
+      header{
+        height: 150px;
+        display: flex;
+        position: relative;
+      }
+      header img{
+        width: 30%;
+      }
+      .title{
+        font-size: 3.5rem;
+        font-family: 'Poppins', sans-serif;
+        color: #6FC1A5;
+      }
+      .title2{
+        font-size: 2.2rem;
+        color: #6FC1A5;
+        font-family: 'Poppins', sans-serif;
+      }
+      .container{
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        margin: 30px 10px 30px 60px;
+        gap: 80px;
+
+      }
+      .container img{
+        width: 600px;
+        
+      }
+      .socialmedia{
+        justify-content: flex-end;
+        display: flex;
+      }
+      .socialmedia img:hover {
+        background: grey;  
+      }
+      .socialmedia img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        border: 2px solid white;
+      }
+      .register{
+        width: 210px;
+        height: 50px;
+        background: lightgrey;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.svg" alt="">
+    </header>
+    <div class="container">
+      <div>
+        <img src="./images/illustration-mockups.svg" alt="">
+      </div>
+      <div>
+        
+          <h2 class="title">Build The Community Your Fans Will Love</h2>
+          <h3 class="title2">
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections
+            with your users as you engage in genuine discussion.
+          </h3>
+        
+        <button class="register">Register</button>
+      </div>
+    </div>
+    <footer>
+
+      <div class="socialmedia">
+        <img src="https://www.pngarts.com/files/16/Splash-Facebook-Icon-X-PNG.png" alt="">;
+        <img src="https://www.pngplay.com/wp-content/uploads/8/Twitter-Icon-Transparent-File.png" alt="">;
+        <img src="https://cdn.pixabay.com/photo/2021/02/18/05/15/insta-6026144_1280.png" alt="">;
+        
+      </div>
+    </footer>
+    
+    </body>
+</html>
